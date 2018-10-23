@@ -9,6 +9,6 @@
 
 Arduino相关资源地址：http://file.sta-dpi.tech/upload/Arduino/ （IDE免安装）
 
-LabVIEW相关资源地址：http://file.sta-dpi.tech/upload/LabVIEW/ （LabVIEW及串口驱动包NI VISA需要安装并破解，注册机在同一目录，傻瓜式）
+LabVIEW相关资源地址：http://file.sta-dpi.tech/upload/LabVIEW/ （LabVIEW及串口驱动包NI VISA）
 
 以上链接请在宿舍校园网环境下访问！
