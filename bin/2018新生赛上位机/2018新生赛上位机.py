@@ -92,13 +92,11 @@ if __name__ == '__main__':
     quad3Y = 40
     quad4X = 545
     quad4Y = 40
-	'''
     # 放点音乐玩
     pygame.init()
     track = pygame.mixer.music.load("BGM0.mp3")
     pygame.mixer.music.play()
     time.sleep(0.1)
-	'''
     while 1:
         i += 1
         print("this is round ", i)
