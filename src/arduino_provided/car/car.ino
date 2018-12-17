@@ -27,8 +27,8 @@ void setup()
   Serial.begin(9600);
   Mirf.spi = &MirfHardwareSpi;
   Mirf.init();
-  Mirf.setTADDR((byte *)"clie1");
-  Mirf.setRADDR((byte *)"serv1");
+  Mirf.setTADDR((byte *)"zhuog");
+  Mirf.setRADDR((byte *)"kaao1");
   Mirf.payload = 8; // 长度
   Mirf.channel = 3; // 信道
   Mirf.config();

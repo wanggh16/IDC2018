@@ -9,8 +9,8 @@ void setup()
   Serial.begin(9600);
   Mirf.spi = &MirfHardwareSpi;
   Mirf.init();
-  Mirf.setRADDR((byte *)"clie1"); // 标记本地名，用于接收
-  Mirf.setTADDR((byte *)"serv1"); // 标记对方的地址
+  Mirf.setRADDR((byte *)"zhuog"); // 标记本地名，用于接收
+  Mirf.setTADDR((byte *)"kaao1"); // 标记对方的地址
   Mirf.payload = 8; //缓冲窗口大小，这个代表8个字节
   Mirf.channel = 3; // 信道，决定频率是2.4几GHz
   Mirf.config();
